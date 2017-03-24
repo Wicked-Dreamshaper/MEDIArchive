@@ -1,0 +1,22 @@
+body
+{
+	background-image: url(../images/mainMEDIArchivePage.png);
+}
+
+div#buttons
+{
+	position: absolute;
+	top: 115px;
+	left: 30px;
+}
+
+div#books
+{
+	position: absolute;
+	background-color: green;
+	left: 430px;
+	top: 185px;
+
+	width: 800px;
+	height: 100px;
+}
