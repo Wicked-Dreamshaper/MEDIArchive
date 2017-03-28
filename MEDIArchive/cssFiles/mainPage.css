@@ -13,9 +13,28 @@ div#buttons
 div#books
 {
 	position: absolute;
-	background-color: green;
 	left: 430px;
 	top: 185px;
+
+	width: 890px;
+	height: 100px;
+}
+
+div#movies
+{
+	position: absolute;
+	left: 430px;
+	top: 365px;
+
+	width: 890px;
+	height: 100px;
+}
+
+div#games
+{
+	position: absolute;
+	left: 430px;
+	top: 530px;
 
 	width: 890px;
 	height: 100px;
@@ -24,7 +43,23 @@ div#books
 div#addMedia
 {
 	position: absolute;
-	left: 350px;
-	top: 300px;
-	background-color: green;
+	left: 322px;
+	top: 525px;
+	height: 50px;
+	width: 55px;
+}
+
+h2#collection
+{
+	position: absolute;
+	left: 810px;
+	top: 115px;
+}
+
+p#greeting
+{
+	color: #DEEDED;
+	position: absolute;
+	top: 425px;
+	left: 30px;
 }

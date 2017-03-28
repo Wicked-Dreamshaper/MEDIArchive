@@ -1,6 +1,6 @@
 #wrapper
 {
-	background-color: blue;
+	
 }
 
 #about
@@ -10,12 +10,10 @@
 	top: 100px;
 	width: 50%;
 	min-width: 500px;
-	background-color: green;
 }
 
 header
 {
-	background: yellow;
 	height: 80px;
 }
 
@@ -34,5 +32,4 @@ input
 {
 	float: right;
 	width: 144px;
-	background-color: black
 }
