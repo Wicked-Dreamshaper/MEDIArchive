@@ -63,3 +63,56 @@ p#greeting
 	top: 425px;
 	left: 30px;
 }
+
+img.item
+{
+	height: inherit;
+}
+
+div#lbft
+{
+	height: inherit;
+	width: inherit;
+}
+
+div#info
+{
+	position: absolute;
+	top: 195px;
+	left: 20px;
+	height: 230px;
+	width: 345px;
+}
+
+img#infoimage
+{
+	height: 120px;
+}
+
+h4
+{
+	position: absolute;
+	left: 420px;
+}
+
+h4#books
+{
+	top: 130px;
+}
+
+h4#movies
+{
+	top: 295px;
+}
+
+h4#games
+{
+	top: 470px;
+}
+
+div#logout
+{
+	position: absolute;
+	top: 445px;
+	left: 300px;
+}
