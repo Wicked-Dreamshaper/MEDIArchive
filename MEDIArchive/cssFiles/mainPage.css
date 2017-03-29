@@ -86,10 +86,12 @@ div#info
 
 img#infoimage
 {
+	position: relative;
+	top: -145px;
 	height: 120px;
 }
 
-h4
+h4.label
 {
 	position: absolute;
 	left: 420px;
@@ -115,4 +117,46 @@ div#logout
 	position: absolute;
 	top: 445px;
 	left: 300px;
+}
+
+div.text
+{
+	position: relative;
+	left: 110px;
+}
+
+div#logos
+{
+	position: absolute;
+	left: 15px;
+	top: 526px;
+	height: 50px;
+	width: 300px;
+}
+
+img.logo
+{
+	height: 50px;
+	width: 50px;
+}
+
+div#recommended
+{
+	position: absolute;
+	left: 550px;
+
+	width: 800px;
+	height: 100px;
+}
+
+div#sort
+{
+	position: absolute;
+	top: 611px;
+	left: 321px;
+}
+
+img#sorting
+{
+	height: 25px;
 }
