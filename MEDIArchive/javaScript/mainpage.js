@@ -2,14 +2,14 @@
 
 
 //on mouseover events for media
-function loadImageOne()
+function showinfolbft()
 {
-	document.getElementById("image2").style.display = "none";
-	document.getElementById("image1").style.display = "block";
+	document.getElementById("lbft").style.display = "block";
+	document.getElementById("aiw").style.display = "none";
 }
 
-function loadImageTwo()
+function showinfoaiw()
 {
-	document.getElementById("image1").style.display = "none";
-	document.getElementById("image2").style.display = "block";
+	document.getElementById("aiw").style.display = "block";
+	document.getElementById("lbft").style.display = "none";
 }
