@@ -6,7 +6,7 @@ var currentString = "";
 
 function login()
 {
-	window.location.href = "mainpage.html";
+	window.location.href = "mainPage2.html";
 }
 
 function monkeybustt()
