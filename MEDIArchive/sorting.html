@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sort your Collection</title>
+    <link href="sorting.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <a href="mainPage.html" id="backbutton"><big><i class="fa fa-arrow-left" aria-hidden="true"></i>Back</big></a>
+    </header>
+    <div class="clipboard">
+      <div class="paper">
+        <form class="sortform" action="index.html" method="post">
+          <table id="sorttable"> <br> <br> <br>
+            <tr>
+              <td>Sort by:</td>
+              <td><select class="sortingMethods" name="">
+                <option value="">Title</option>
+                <option value="">Length</option>
+                <option value="">Amount Finished</option>
+                <option value="">Recently Updated</option>
+                <option value="">Genre</option>
+                <option value="">Date Released</option>
+                <option value="">Date Finished</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>Display: </td>
+              <td>
+                <input type="checkbox" name="" value="">Movies<br>
+                <input type="checkbox" name="" value="">Music<br>
+                <input type="checkbox" name="" value="">Books<br>
+                <input type="checkbox" name="" value="">Comics<br>
+                <input type="checkbox" name="" value="">Games<br>
+                <input type="checkbox" name="" value="">Videos<br>
+                <input type="checkbox" name="" value="">TV Shows<br>
+                <input type="checkbox" name="" value="">Webpages<br>
+              </td>
+            </tr>
+          </table>
+          <input type="submit" id="submitbutton" value="Sort">
+        </form>
+      </div>
+    </div>
+    <div class="title">
+      SORTING
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+body
+{
+  background-image: url("pics/resultsImage.png");
+}
+
+#titleDiv
+{
+  position: absolute;
+  left:105px;
+}
+
+#clickable
+{
+  position: absolute;
+  top:120px;
+  left:105px;
+  height:225px;
+  width:1243px;
+}
+#aliceInWonderland
+{
+  position: absolute;
+  top:345px;
+  left:105px;
+  height:225px;
+  width:1243px;
+}
+#fireLand
+{
+  position: absolute;
+  top:565px;
+  left:105px;
+  height:90px;
+  width:1243px;
+}
+.textDivs
+{
+  position: absolute;
+  left:210px;
+}
