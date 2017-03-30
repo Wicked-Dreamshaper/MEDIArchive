@@ -8,25 +8,28 @@
     </script>
   </head>
   <body>
-    <div id="loginDiv">
-      <form method="post" enctype="text/plain" id="loginForm">
-        <table>
-          <tr>
-            <th colspan="2"><h1>Log In</h1></th>
-          </tr>
-          <tr>
-            <td>Username: </td>
-            <td><input type="text" name="username" value="" onkeydown="monkeybustt();" id="output"></td>
-          </tr>
-          <tr>
-            <td>Password: </td>
-            <td><input type="password" name="password" value=""></td>
-          </tr>
-          <tr>
-            <td colspan="2"><input type="Submit" name="submit" value="Submit" style="float:right;" onclick="login(); return false;"></td>
-          </tr>
-        </table>
-      </form>
+    <div class="clipboard">
+      <div class="paper">
+        <br><br><br>
+        <form method="post" enctype="text/plain" id="loginForm">
+          <table>
+            <tr>
+              <td>Username: </td>
+              <td><input type="text" name="username" value="" onkeydown="monkeybustt();" id="output"></td>
+            </tr>
+            <tr>
+              <td>Password: </td>
+              <td><input type="password" name="password" value=""></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="Submit" name="submit" value="Submit" id="submitbutton" onclick="login(); return false;"></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+    <div class="title">
+      LOGIN
     </div>
   </body>
 </html>

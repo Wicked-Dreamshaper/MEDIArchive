@@ -9,51 +9,56 @@
     <script type="text/javascript" src="searchPage.js"></script>
   </head>
   <body>
-    <div class="searchBox">
-      <h2>Search</h2>
-      <form method="post" enctype="text/plain" id="searchForm">
-        <input type="text" id="searchInput" value="" placeholder="Add a search term here:">
-        <a href="results1.html"><i class="fa fa-search" aria-hidden="true"></i></a>
-        <br><span id="advancedSearchButton">Advanced Search <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
-        <br><div id="hiddenContent">
-          <table>
-            <tr>
-              <td>
-                Media Type:
-              </td>
-              <td>
-                <select class="inputs">
-                <option value="Any" selected>Any</option>
-                <option value="Movies">Movies</option>
-                <option value="Music">Music</option>
-                <option value="Books">Books</option>
-                <option value="Comics">Comics</option>
-                <option value="Games">Games</option>
-                <option value="Videos">Videos</option>
-                <option value="Shows">TV Shows</option>
-                <option value="Webpages">Webpages</option>
-                </select>
-              </td>
-            </tr>
-            <tr>
-              <td>Length: </td>
-              <td><input type="text" name="length" class="inputs" value=""></td>
-            </tr>
-            <tr>
-              <td>Creator: </td>
-              <td><input type="text" name="creator" class="inputs" value=""></td>
-            </tr>
-            <tr>
-              <td>Genre: </td>
-              <td><input type="text" class="inputs" name="genre" value=""></td>
-            </tr>
-            <tr>
-              <td>Keyword: </td>
-              <td><input type="text" class="inputs" name="keyword" value=""></td>
-            </tr>
-          </table>
-        </div>
-      </form>
+    <div class="clipboard">
+      <div class="paper">
+        <br><br><br>
+          <form method="post" enctype="text/plain" id="searchForm">
+            <input type="text" id="searchInput" value="" placeholder="Add a search term here:">
+            <a href="results1.html"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <br><span id="advancedSearchButton">Advanced Search <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+            <br><div id="hiddenContent">
+              <table>
+                <tr>
+                  <td>
+                    Media Type:
+                  </td>
+                  <td>
+                    <select class="inputs">
+                    <option value="Any" selected>Any</option>
+                    <option value="Movies">Movies</option>
+                    <option value="Music">Music</option>
+                    <option value="Books">Books</option>
+                    <option value="Comics">Comics</option>
+                    <option value="Games">Games</option>
+                    <option value="Videos">Videos</option>
+                    <option value="Shows">TV Shows</option>
+                    <option value="Webpages">Webpages</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Length: </td>
+                  <td><input type="text" name="length" class="inputs" value=""></td>
+                </tr>
+                <tr>
+                  <td>Creator: </td>
+                  <td><input type="text" name="creator" class="inputs" value=""></td>
+                </tr>
+                <tr>
+                  <td>Genre: </td>
+                  <td><input type="text" class="inputs" name="genre" value=""></td>
+                </tr>
+                <tr>
+                  <td>Keyword: </td>
+                  <td><input type="text" class="inputs" name="keyword" value=""></td>
+                </tr>
+              </table>
+            </div>
+          </form>
+      </div>
+    </div>
+    <div class="title">
+      SEARCH
     </div>
   </body>
 </html>
