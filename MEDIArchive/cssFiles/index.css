@@ -6,7 +6,7 @@ body
 #about
 {
 	position: relative;
-	left: 100px;
+	left: 50px;
 	top: 100px;
 	width: 50%;
 	min-width: 500px;
@@ -32,4 +32,10 @@ input
 {
 	float: right;
 	width: 144px;
+}
+#vidya
+{
+	position: absolute;
+	top: 200px;
+	left: 750px;
 }
