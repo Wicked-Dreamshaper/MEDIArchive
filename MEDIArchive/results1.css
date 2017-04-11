@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
 body
 {
   background-image: url("pics/resultsImage.png");
+	font-family: 'Lora', serif;
 }
 
 #titleDiv

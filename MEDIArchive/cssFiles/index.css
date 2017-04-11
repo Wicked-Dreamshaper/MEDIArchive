@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+
 body
 {
-	background-color: #B26C27;
+	background-color: #C28B55;
+	font-family: 'Lora', serif;
+}
+
+#wrapper
+{
+	background-color: white;
+	border-radius: 50px;
 }
 
 #about
@@ -17,21 +27,22 @@ header
 	height: 80px;
 }
 
-main
-{
-
-}
-
 input
 {
 	padding: 10px;
-	width: 70px;
+	width: 120px;
+	background-color: green;
+	color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-weight: bolder;
 }
+
 
 #buttons
 {
 	float: right;
-	width: 144px;
+	padding-right: 50px;
+	padding-top: 20px;
 }
 #vidya
 {

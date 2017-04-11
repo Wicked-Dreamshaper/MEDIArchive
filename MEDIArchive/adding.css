@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
 body
 {
   background-color: darkgrey;
+  font-family: 'Lora', serif;
 }
 
 .clipboard
@@ -39,6 +42,13 @@ body
   margin-left: 10%;
   margin-right: 10%;
 }
+
+.searchBox
+{
+  padding-left: 20px;
+
+}
+
 #sorttable
 {
   margin-left: 20%;
@@ -71,4 +81,3 @@ select
 {
   border-radius: 20px;
 }
-
