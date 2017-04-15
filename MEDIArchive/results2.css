@@ -39,6 +39,15 @@
    display: block;
 }
 
+button
+{
+	background-color: #1FB22E;
+	color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-weight: bolder;
+  padding: 10px;
+}
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #f1f1f1}
 
